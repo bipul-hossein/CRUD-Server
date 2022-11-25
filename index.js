@@ -5,7 +5,7 @@ const cors = require('cors')
 const port = 5000
 
 // middle ware
-app.use(express.json());
+app.use(express.json());//post opration korar somoy lagba
 app.use(cors())
 
 
